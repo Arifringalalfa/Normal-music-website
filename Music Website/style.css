@@ -1,0 +1,119 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .container {
+        height: 100vh;
+        width: 100%;
+        background-image: url(img/media.jpg);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
+    
+    .logo {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    
+    .navbar {
+        width: 88%;
+        margin: auto;
+        padding: 15px 0;
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+    }
+    
+    .navbar ul li {
+        list-style: none;
+        display: inline-block;
+        margin: 0 15px;
+    }
+    
+    .navbar ul li a {
+        text-decoration: none;
+        color: rgb(34, 4, 34);
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    
+    .navbar ul li a:hover {
+        background-color: rgb(8, 57, 189);
+        color: rgb(12, 206, 28);
+        border-radius: 5px;
+        font-weight: bo;
+    }
+    
+    .content {
+        width: 100%;
+        position: absolute;
+        top: 30%;
+    }
+    
+    .left-col {
+        margin-left: 6%;
+    }
+    
+    .left-col h1 {
+        font-size: 90px;
+        color: rgb(27, 7, 207);
+        line-height: -30px;
+        float: left;
+    }
+    
+    .left-col h1:hover {
+        color: red;
+    }
+    
+    .right-col {
+        float: right;
+        margin-right: 6%;
+        margin-top: 120px;
+        align-items: center;
+        display: flex;
+    }
+    
+    .right-col p {
+        font-size: 40px;
+        color: rgb(201, 22, 22);
+    }
+    
+    .right-col p:hover {
+        background-color: brown;
+        color: white;
+        border-radius: 10px;
+    }
+    
+    .play-btn {
+        width: 70px;
+        height: 70px;
+        margin-left: 10px;
+        background-color: white;
+        border-radius: 50%;
+    }
+    
+    .play-btn:hover {
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        color: rgb(26, 197, 26);
+    }
+    
+    #icon2 {
+        width: 70px;
+        height: 70px;
+        margin-left: 10px;
+        background-color: white;
+        border-radius: 50%;
+    }
+    
+    #icon2:hover {
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        color: rgb(26, 197, 26);
+        font-fa
+    }
